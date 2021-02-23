@@ -20,17 +20,18 @@ class MyCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.teal,
+      backgroundColor: Colors.redAccent,
       body: SafeArea(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             CircleAvatar(
               radius: 50.0,
-              backgroundImage: AssetImage('images/mariano.png'),
+              backgroundImage: AssetImage(
+                  'https://quikconsult.com//uploads/consultant/168/sunil.JPG'),
             ),
             Text(
-              'Mariano Castellano',
+              'Dr.Sunil Kumar',
               style: TextStyle(
                 fontFamily: 'Pacifico',
                 fontSize: 30.0,
@@ -38,12 +39,12 @@ class MyCard extends StatelessWidget {
               ),
             ),
             Text(
-              'FLUTTER DEVELOPER',
+              'Fertilizer Expert',
               style: TextStyle(
                 fontFamily: 'Source Sans Pro',
                 fontSize: 20.0,
                 letterSpacing: 2.5,
-                color: Colors.teal.shade100,
+                color: Colors.white,
                 fontWeight: FontWeight.bold,
               ),
             ),
@@ -51,23 +52,20 @@ class MyCard extends StatelessWidget {
               height: 20.0,
               width: 150.0,
               child: Divider(
-                color: Colors.teal.shade100,
+                color: Colors.redAccent,
               ),
             ),
             Card(
               color: Colors.white,
               margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
               child: ListTile(
-                leading: Icon(
-                  Icons.phone,
-                  color: Colors.teal,
-                ),
+                leading: Icon(Icons.phone, color: Colors.redAccent),
                 title: Text(
                   '+9 5411 2345 6789',
                   style: TextStyle(
                     fontSize: 20.0,
                     fontFamily: 'Source Sans Pro',
-                    color: Colors.teal.shade900,
+                    color: Colors.redAccent,
                   ),
                 ),
               ),
@@ -78,14 +76,14 @@ class MyCard extends StatelessWidget {
               child: ListTile(
                 leading: Icon(
                   Icons.email,
-                  color: Colors.teal,
+                  color: Colors.redAccent,
                 ),
                 title: Text(
-                  'mariano@email.com',
+                  'sunilkumar@email.com',
                   style: TextStyle(
                     fontSize: 20.0,
                     fontFamily: 'Source Sans Pro',
-                    color: Colors.teal.shade900,
+                    color: Colors.redAccent,
                   ),
                 ),
               ),
