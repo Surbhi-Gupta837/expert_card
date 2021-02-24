@@ -27,8 +27,7 @@ class MyCard extends StatelessWidget {
           children: <Widget>[
             CircleAvatar(
               radius: 50.0,
-              backgroundImage: AssetImage(
-                  'https://quikconsult.com//uploads/consultant/168/sunil.JPG'),
+              backgroundImage: AssetImage('sunil.jpg'),
             ),
             Text(
               'Dr.Sunil Kumar',
